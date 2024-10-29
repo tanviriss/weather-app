@@ -1,27 +1,25 @@
-# Web Development Project 5 - _Weather Applications_
+# Web Development Project 6 - _Weather Application_
 
 Submitted by: **Tanvir Islam**
 
-This web app: \*_Check the weather of your city, updated real time using the weatherstock api_
+This web app: **Check the weather of your city, updated real time using the weatherstock api**
 
-Time spent: **7** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ X] **The list displays a list of data fetched using an API call**
-- [ X] **Data uses the useEffect React hook and async/await syntax**
-- [ X] **The app dashboard includes at least three summary statistics about the data such as**
-  - [X ] _temperature, humidity, wind speed, cloud cover_
-- [ X] **A search bar allows the user to search for an item in the fetched data**
-- [X ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [ X] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [ X] **Clicking on an item in the list view displays more details about it**
+  - [ X] To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.
+- [ ] **Clicking on an item has a direct, unique link to that item's detail view page**
+  - [ ] To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
@@ -31,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='./src/assets/Kapture 2024-10-21 at 23.15.57.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/assets/new.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
@@ -46,9 +44,11 @@ GIF created with Kap
 
 Describe any challenges encountered while building the app.
 
+- Learning recharts was hard because I've never used it before
+
 ## License
 
-    Copyright [2024] [Tanvir Islam]
+    Copyright [2024] [Tanvir]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
